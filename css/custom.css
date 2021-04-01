@@ -36,6 +36,9 @@ html {
     padding-left: 15px;
     text-align: center;
   }
+  .container .form-header {
+    text-align: center;
+  }
   
   code {
     font-size: 80%;

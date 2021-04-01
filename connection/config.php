@@ -1,4 +1,4 @@
-<?php
+<?
 
 /**
   * Configuration for database connection
@@ -11,3 +11,5 @@ $password   = "Ciccipalli78";
 $dbname     = "carousel_page"; // will use later
 $dsn        = "mysql:host=$host;dbname=$dbname"; // will use later
 $options    = array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);
+
+?>
