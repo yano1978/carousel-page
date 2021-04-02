@@ -60,6 +60,7 @@ html {
     box-sizing: border-box;
     height: auto;
     padding: 10px;
+    margin: 5px 0;
     font-size: 16px;
   }
   .form-signin .form-control:focus {
@@ -76,7 +77,16 @@ html {
     border-top-right-radius: 0;
   }
   .subscribe-msg {
-      /* display: none; */
       text-align: center;
       padding-top: 10px;
   }
+  .error {
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+  }
+  #btn-submit {
+    margin-top: 10px;
+  }
+

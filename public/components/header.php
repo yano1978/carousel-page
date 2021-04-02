@@ -10,9 +10,9 @@
             <meta name="description" content="">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <!-- Bootstrap core CSS -->
-            <link href="./css/bootstrap.min.css" rel="stylesheet">
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
             <!-- Custom styles for this template -->
-            <link href="./css/custom.css" rel="stylesheet">
+            <link href="../css/custom.css" rel="stylesheet">
         </head>
             <body>
                 <header>
@@ -24,7 +24,7 @@
                         <div class="collapse navbar-collapse" id="navbarCollapse">
                             <ul class="navbar-nav mr-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Link</a>
@@ -41,5 +41,5 @@
                     </nav>
             </header>
   <!-- END: Header component -->
-  '
+  ';
 ?>

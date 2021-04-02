@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   
   if (empty($_POST["email"])) {
+    var_dump($_POST);
     $emailErr = "Email is required";
   } else {
     $email = test_input($_POST["email"]);
@@ -40,11 +41,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     elseif(!preg_match("#[a-z]+#",$password)) {
         $passwordErr = "Your Password Must Contain At Least 1 Lowercase Letter!";
     }
-} elseif(!empty($_POST["password"])) {
-        $cpasswordErr = "Please Check You've Entered Or Confirmed Your Password!";
-    } else {
-        $passwordErr = "Please enter password   ";
-    }
+  } else {
+    $cpasswordErr = "Please Check You've Entered Or Confirmed Your Password!";
+  }
 }
 
 function test_input($data) {
