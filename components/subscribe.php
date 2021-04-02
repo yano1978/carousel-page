@@ -34,7 +34,7 @@ if (isset($_POST['submit'])) {
 
 }
 if (isset($_POST['submit']) && $statement) { 
-    echo $_POST['firstname'] .' successfully added.';
+    echo '<div class="subscribe-msg"><h4>'. $_POST['firstname'] .' successfully added!</h4></div>';
 } 
 
 $validator = htmlspecialchars($_SERVER["PHP_SELF"]);
@@ -54,10 +54,5 @@ echo '
         <span class="error">* '.$cpasswordErr.'</span>
         <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Submit">Submit</button>
     </form> 
-    <div class="subscribe-msg">
-        <h4>Thanks '.$name.' for subscribe!</h4>
-        <h4>Your password is '.$password.'</h4>
-        <h4>Your confirmed password is '.$cpassword.'</h4>
-    </div>
 '
 ?>
