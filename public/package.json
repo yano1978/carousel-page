@@ -1,0 +1,26 @@
+{
+  "name": "carousel-page",
+  "version": "1.0.0",
+  "description": "Test with form submission and carousel",
+  "main": "main.js",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "imagesloaded": "^4.1.4",
+    "jquery": "^3.6.0",
+    "masonry-layout": "^4.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yano1978/carousel-page.git"
+  },
+  "author": "Ernesto Ianuario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yano1978/carousel-page/issues"
+  },
+  "homepage": "https://github.com/yano1978/carousel-page#readme"
+}

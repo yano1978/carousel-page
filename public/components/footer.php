@@ -1,16 +1,20 @@
 <?
     echo '
-    <!-- Footer component -->
-            <footer class="footer">
-                <div class="container">
-                    <span class="text-muted">Copyright &copy; ' .date("Y") .' - Ernesto Ianuario</span>
-                </div>
-            </footer>
-            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-            <script src="../js/bootstrap.min.js"></script>
-            <script src="../js/main.js"></script>
-        </body>
-    </html>
-    <!-- END: Footer component -->
+        <!-- Footer component -->
+                    <footer class="footer">
+                        <div class="container">
+                            <span class="text-muted">Copyright &copy; ' .date("Y") .' - Company name</span>
+                        </div>
+                    </footer>
+                    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+                    <script src="/node_modules/masonry-layout/dist/masonry.pkgd.min.js"></script>
+                    <script src="/node_modules/imagesloaded/imagesloaded.pkgd.min.js"></script>
+                    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+                    <script src="../js/main.js"></script>
+                    <script src="../js/carousel.js"></script>
+                    <script src="../js/grid.js"></script>
+                </body>
+            </html>
+        <!-- END: Footer component -->
     ';
 ?>
